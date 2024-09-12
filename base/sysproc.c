@@ -90,6 +90,6 @@ sys_uptime(void)
   return xticks;
 }
 
-int sys_shutdown2(void){
-
+void sys_shutdown2(char* []msg){
+	
 }

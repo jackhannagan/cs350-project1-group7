@@ -10,6 +10,7 @@
 #define STUB_FUNCS
 #ifdef STUB_FUNCS
 void exit2(int status) {
+	//trying to put code in here
 
 }
 #endif

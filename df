@@ -1,0 +1,65 @@
+[33mcommit ed8e7691fce5e0859dec3fcdc11c08aa41ea5fd1[m[33m ([m[1;36mHEAD -> [m[1;32mjack[m[33m, [m[1;31morigin/jack[m[33m)[m
+Author: Jack Hannagan <jhannag1@cs.binghamton.edu>
+Date:   Thu Sep 19 14:51:13 2024 -0400
+
+    added exit2 to syscall
+
+[33mcommit 3f3bb2f222e407d081bbf83d5ada4872399c095b[m
+Author: Jack Hannagan <jhannag1@cs.binghamton.edu>
+Date:   Thu Sep 19 14:41:30 2024 -0400
+
+    remove lemon
+
+[33mcommit 5e41536efeed4b7bbb0cf7a1bb608fc3bacd091c[m
+Author: Jack Hannagan <jhannag1@cs.binghamton.edu>
+Date:   Thu Sep 19 14:34:38 2024 -0400
+
+    trying to change in jack
+
+[33mcommit 3f9de9aad106f793b53119c1733e997635d75c7a[m[33m ([m[1;31morigin/mandy[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/cindy_branch[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: jackhannagan <144489361+jackhannagan@users.noreply.github.com>
+Date:   Thu Sep 12 10:56:36 2024 -0400
+
+    Delete old Makefile
+
+[33mcommit a2921ddbe7418562dfcf3b6377285440b08c02bf[m
+Author: Rahat Rahman <rrahma45@cs.binghamton.edu>
+Date:   Thu Sep 12 10:24:38 2024 -0400
+
+    uploaded base.zip
+
+[33mcommit 67ef1f668c3494622c43260d91228cf457b0549f[m
+Author: jackhannagan <144489361+jackhannagan@users.noreply.github.com>
+Date:   Thu Sep 12 10:23:37 2024 -0400
+
+    Update README.md
+
+[33mcommit 62aeffd506ee3d8e9953e9f5fd5ed784b6a268c7[m
+Author: jackhannagan <144489361+jackhannagan@users.noreply.github.com>
+Date:   Thu Sep 12 10:22:30 2024 -0400
+
+    Update README.md
+
+[33mcommit 15e45248160cf28edb553eeb941d5dfefd92784c[m
+Author: jackhannagan <144489361+jackhannagan@users.noreply.github.com>
+Date:   Thu Sep 12 10:22:13 2024 -0400
+
+    Update README.md
+
+[33mcommit d25e22b851a126fb16c4bf7278d31e1bddd61930[m
+Author: Hoyeon Yoo <89830025+hyoo412@users.noreply.github.com>
+Date:   Thu Sep 12 10:21:53 2024 -0400
+
+    Update README.md
+
+[33mcommit cc12ba059b80e2298f7691e36e517318876d0a4b[m
+Author: jackhannagan <144489361+jackhannagan@users.noreply.github.com>
+Date:   Thu Sep 12 10:21:27 2024 -0400
+
+    Create README.md
+
+[33mcommit 846b603feea4b6e22aaf1548636df5aeb7c71a0e[m
+Author: jackhannagan <144489361+jackhannagan@users.noreply.github.com>
+Date:   Thu Sep 12 10:20:10 2024 -0400
+
+    Create Makefile

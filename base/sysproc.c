@@ -90,6 +90,6 @@ sys_uptime(void)
   return xticks;
 }
 
-void sys_shutdown2(char* []msg){
-	
+void sys_shutdown2(void){
+	//argstring, cprintf msg, then run shutdown
 }

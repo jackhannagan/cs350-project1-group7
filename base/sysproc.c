@@ -92,4 +92,10 @@ sys_uptime(void)
 
 void sys_shutdown2(void){
 	//argstring, cprintf msg, then run shutdown
+	char msg[];
+	if(argstr(0, &msg) < 0) // checking if a msg was given, if not quits out of shutdown 2
+		return -1;
+	cprintf(msg);
+	outw(0xB004, 0x0|0x2000);
+	outw(0x604, 0x0|0x2000);
 }

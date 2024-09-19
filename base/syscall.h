@@ -20,4 +20,8 @@
 #define SYS_link   19
 #define SYS_mkdir  20
 #define SYS_close  21
+<<<<<<< HEAD
 #define SYS_exit2 51
+=======
+#define SYS_shutdown 22
+>>>>>>> 53a0d3c (shutdown command)

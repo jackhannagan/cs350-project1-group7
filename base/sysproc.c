@@ -42,6 +42,13 @@ sys_getpid(void)
   return myproc()->pid;
 }
 
+void
+sys_shutdown(void)
+{
+	outw(0xB004, 0x0|0x2000);
+	outw(0x604, 0x0|0x2000);
+}
+
 int
 sys_sbrk(void)
 {

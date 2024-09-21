@@ -24,6 +24,7 @@ char* sbrk(int);
 int sleep(int);
 int uptime(void);
 void shutdown2(char* msg);
+int meow(char* ascii);
 
 // ulib.c
 int stat(char*, struct stat*);

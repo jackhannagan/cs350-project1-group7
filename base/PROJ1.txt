@@ -1,0 +1,4 @@
+Purpose: Prints a choice of 2 ascii cats into the terminal
+Functionality:  Takes in user input with the "meow" command. 
+		If the command is input with 1 or 2, cat 1 or cat 2 will be printed out, else it will output a statement indicating that
+		the input was wrong.

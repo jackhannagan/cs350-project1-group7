@@ -99,3 +99,16 @@ sys_shutdown2(void){
 	outw(0xB004, 0x0|0x2000);
 	outw(0x604, 0x0|0x2000);
 }
+
+int
+sys_meow(void){
+	char* string;
+	if(argstr(0, &string) < 0){
+		return -1; //return error if there is nothing passed into string
+	}
+	cprintf("Its Purrrrrrrrrrrrrfect\n");
+	cprintf("%s\n", string);
+	return 0;
+}
+
+

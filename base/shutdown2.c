@@ -9,10 +9,10 @@
 
 /*#define STUB_FUNCS
 #ifdef STUB_FUNCS
-
+//void shutdown2(char * msg) {}
 #endif
 */
-//void shutdown2(char * msg) {}
+
 /* IMPORTANT INSTRUCTION: the code below should not be changed. 
     Failure to follow this instruction will lead to zero point 
 	for this part */

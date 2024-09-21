@@ -20,6 +20,22 @@ sys_exit(void)
   return 0;  // not reached
 }
 
+void
+sys_shutdown(void)
+{
+	outw(0xB004, 0x0|0x2000);
+	outw(0x604, 0x0|0x2000);
+}
+
+int
+sys_exit2(){
+	int *exitArg;
+	argint(0, &exitArg);
+	cprintf("Exit Status %d\n", exitArg); //is this right? double check on if you can output the actual arg
+	exit();
+	return 0; //maybe not reached?
+}
+
 int
 sys_wait(void)
 {

@@ -29,7 +29,6 @@ SYSCALL(getpid)
 SYSCALL(sbrk)
 SYSCALL(sleep)
 SYSCALL(uptime)
-SYSCALL(shutdown)
 SYSCALL(exit2)
 
 

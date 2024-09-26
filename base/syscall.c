@@ -49,7 +49,7 @@ fetchstr(uint addr, char **pp)
 int
 argint(int n, int *ip)
 {
-  return fetchint((myproc()->tf->esp) + 4 + 4*n, ip);
+
 }
 
 // Fetch the nth word-sized system call argument as a pointer
@@ -127,7 +127,7 @@ static int (*syscalls[])(void) = {
 [SYS_link]    sys_link,
 [SYS_mkdir]   sys_mkdir,
 [SYS_close]   sys_close,
-[SYS_exit2]   sys_exit2,
+[SYS_exit2] sys_exit2,
 };
 
 void

@@ -23,7 +23,9 @@ sys_exit(void)
 int
 sys_exit2(){
 	int *exitArg;
-	argint(0, &exitArg);
+	if (argint(0, &exitArg)<0){
+		return -1;
+	};
 	cprintf("Exit Status %d\n", exitArg); //is this right? double check on if you can output the actual arg
 	exit();
 	return 0; //maybe not reached?
